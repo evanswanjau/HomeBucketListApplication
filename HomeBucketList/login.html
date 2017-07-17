@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BucketList </title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="index.html">Home</a>
+                    </li>
+                    <li role="presentation" class="active" ><a href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">BucketList</h3>
+        </div>
+
+    <div class="container">
+    <h1 class="welcome text-center">Welcome to Our Bucket-list</h1>
+        <div class="card card-container">
+        <h2 class='login_title text-center'>Login</h2>
+        <hr>
+
+            <form class="form-signin" action="/validateLogin" method="post">
+                <span id="reauth-email" class="reauth-email"></span>
+                <p class="input_title">Email</p>
+                <input type="text" id="inputEmail" class="login_box" placeholder="email" name="inputEmail" required autofocus>
+                <p class="input_title">Password</p>
+                <input type="password" id="inputPassword" name="inputPassword" class="login_box" placeholder="*********" required>
+                <div id="remember" class="checkbox">
+                    <label>
+
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary" id="btnSignIn" type="submit">Login</button>
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+</body>
+</html>
